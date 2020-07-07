@@ -352,6 +352,18 @@ template {
 
 
 /*----------- Where I started adding things---------------------*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
 section {
   float: left;
   margin: 0 1.5%;
@@ -363,14 +375,3 @@ aside {
   width: 30%;
 }
 
-footer {
-  clear: both;
-}
-
-h1 {
-  float:center;
-}
-
-nav{
-  float:center;
-}
