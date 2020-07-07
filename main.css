@@ -366,3 +366,11 @@ aside {
 footer {
   clear: both;
 }
+
+h1 {
+  float:center;
+}
+
+nav{
+  float:center;
+}
