@@ -1,0 +1,89 @@
+
+/*----------- Where I started adding things---------------------*/
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+body{
+  display: table;
+  background-color: #C4AF9A; /*Khaki web*/
+  font-family: 'Trebuchet MS';
+  color:#21A179; /*Green Munsell*/
+}
+.half {
+  margin: 1%;
+  width: 45%;
+  /*display: table-cell;*/
+  display: inline-block;
+  padding: 1%;
+  float: left;
+}
+.whole{
+  clear:both;
+}
+aside {
+  /*float: right;*/
+  display:inline-block;
+  margin: 0 1.5%;
+  width: 30%;
+  background-color: #FB9F89; /*Vivid Tangeringe*/
+  color: #81AE9D; /*Green Sheen*/
+  font-style: 200;
+  alignment-baseline: right;
+}
+p {
+    color: #21A179;
+}
+
+header, footer {
+  background-color: #1E1E24;
+}
+
+header, footer {
+  font-family: 'Trebuchet MS';
+  color: #FB9F89;
+  text-align: center;
+  background: -moz-linear-gradient(left, #1E1E24 0%, #FB9F89 100%);
+  background: -o-linear-gradient(left, #1E1E24 0%, #FB9F89 100%);
+  background: -webkit-linear-gradient(left, #1E1E24 0%, #FB9F89 100%);
+}
+
+nav {
+  font-family: 'Trebuchet MS';
+  background-color: #1E1E24;
+  color: #81AE9D;
+  text-align: center;
+  font-size: 150%;
+  font-variant: small-caps;
+}
+
+nav a{
+  width: 22%;
+  display: inline-block;
+  background: #1E1E24;
+  color: #FB9F89;
+}
+
+h2{
+  background-color: #81AE9D; /*Green Sheen*/
+  font-family: 'Trebuchet MS';
+  color: #1E1E24; /*Raisin Black*/
+  display:block;
+}
+img {
+  width: 7%;
+}
+/* color scheme: #1E1E24-Raisin Black, #FB9F89-Vivid Tangeringe, #C4AF9A-Khaki Web, #81AE9D-Green Sheen, #21A179-Green Munsell*/
